@@ -260,3 +260,4 @@ int delete(FILE *db_file, char *name) {
   write_all_entries(base);
   free_entries(base);
   return deleted;
+}
